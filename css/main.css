@@ -14,7 +14,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     line-height: 1.5;
-    background: #eaeaea;
     color: #34495e;
 }
 
@@ -212,8 +211,6 @@ p {
 .photo-overlay:hover {
     opacity: 1;
 }
-
-
 
 /****** IMAGE TRANSITION & TRANSFORM ******/
 
