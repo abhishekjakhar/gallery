@@ -286,9 +286,13 @@ MEDIA QUERIES
 *************/
 
 @media (min-width: 0) and (max-width: 768px) {
+    .main-header {
+        padding: 2em 0 1em;
+    }
+
     .photo-container,
     .photo-container:nth-child(3n+2) {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         float: none;
         margin-bottom: 4em;
@@ -297,17 +301,19 @@ MEDIA QUERIES
     .photo-container img {
         max-width: 100%;
         height: auto;
+        margin: 0 auto;
     }
     
     .btn {
-        width: 50%;
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px 0;
     }
     
     .photo-description {
         width: 85%;
         margin: 0 auto;
     }
-    
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -321,6 +327,10 @@ MEDIA QUERIES
     
     .photo-container img {
         width: 100%;
+    }
+
+    .btn {
+        padding: 8px 0;
     }
 }
 
